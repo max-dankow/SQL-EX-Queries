@@ -1,0 +1,5 @@
+SELECT PC.hd
+FROM PC
+GROUP BY PC.hd
+HAVING COUNT(*) >= 2
+
