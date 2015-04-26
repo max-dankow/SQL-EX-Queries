@@ -1,0 +1,3 @@
+SELECT DISTINCT CAST(AVG(CAST(numGuns AS FLOAT)) AS NUMERIC(6,2))
+FROM classes
+WHERE type = 'bb'
